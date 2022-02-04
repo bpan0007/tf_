@@ -6,4 +6,6 @@ resource "aws_instance" "example" {
     Name = "terraform-example"
   }
 }
-
+provider "aws" {
+  region = "us-east-1"
+}
